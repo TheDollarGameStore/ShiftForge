@@ -1,0 +1,20 @@
+{
+  "name": "shiftforge",
+  "version": "1.0.0",
+  "description": "Internal workforce shift management and incident handover dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "shifts",
+    "incidents",
+    "dashboard",
+    "express"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
